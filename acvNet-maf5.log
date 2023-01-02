@@ -1,0 +1,415 @@
+[2022-09-29 15:27:48.446] [info] Requesting resources for KT AI Accelerator from the server...
+[2022-09-29 15:27:49.508] [info] Initializing the worker daemon for KT AI Accelerator
+[2022-09-29 15:27:50.891] [info] [1/3] Connecting to resources on the server (192.168.110.3:24174)...
+[2022-09-29 15:27:50.906] [info] [2/3] Connecting to resources on the server (192.168.110.18:24157)...
+[2022-09-29 15:27:50.913] [info] [3/3] Connecting to resources on the server (192.168.110.36:24169)...
+[2022-09-29 15:27:50.920] [info] Establishing links to the resources...
+[2022-09-29 15:27:51.056] [info] KT AI Accelerator is ready to use.
+creating new summary file
+loading model ./pretrained_model/sceneflow.ckpt
+start at epoch 0
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 0/600, Iter 0/24, train loss = 4.038, time = 34.244
+Epoch 0/600, Iter 1/24, train loss = 3.142, time = 4.668
+Epoch 0/600, Iter 2/24, train loss = 2.137, time = 4.243
+Epoch 0/600, Iter 3/24, train loss = 1.959, time = 4.674
+Epoch 0/600, Iter 4/24, train loss = 1.931, time = 4.837
+Epoch 0/600, Iter 5/24, train loss = 1.538, time = 4.526
+Epoch 0/600, Iter 6/24, train loss = 1.717, time = 4.732
+Epoch 0/600, Iter 7/24, train loss = 7.149, time = 4.746
+Epoch 0/600, Iter 8/24, train loss = 1.573, time = 4.772
+Epoch 0/600, Iter 9/24, train loss = 1.585, time = 4.422
+Epoch 0/600, Iter 10/24, train loss = 1.872, time = 4.588
+Epoch 0/600, Iter 11/24, train loss = 1.735, time = 4.909
+Epoch 0/600, Iter 12/24, train loss = 1.575, time = 4.573
+Epoch 0/600, Iter 13/24, train loss = 1.771, time = 4.122
+Epoch 0/600, Iter 14/24, train loss = 1.838, time = 4.708
+Epoch 0/600, Iter 15/24, train loss = 1.666, time = 4.697
+Epoch 0/600, Iter 16/24, train loss = 1.352, time = 4.447
+Epoch 0/600, Iter 17/24, train loss = 1.983, time = 4.703
+Epoch 0/600, Iter 18/24, train loss = 1.438, time = 4.320
+Epoch 0/600, Iter 19/24, train loss = 1.720, time = 4.665
+Epoch 0/600, Iter 20/24, train loss = 1.735, time = 35.162
+Epoch 0/600, Iter 21/24, train loss = 1.702, time = 4.992
+Epoch 0/600, Iter 22/24, train loss = 1.587, time = 4.464
+Epoch 0/600, Iter 23/24, train loss = 1.932, time = 4.264
+Epoch 0/600, Iter 0/3, test loss = 111.785, time = 15.691272
+Epoch 0/600, Iter 1/3, test loss = 115.795, time = 13.126989
+Epoch 0/600, Iter 2/3, test loss = 117.473, time = 7.280085
+avg_test_scalars {'loss': 115.01760609944661, 'EPE': [115.17136891682942], 'D1': [0.9994833469390869], 'Thres1': [0.9998684922854105], 'Thres2': [0.9997133215268453], 'Thres3': [0.9995494286219279]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 1/600, Iter 0/24, train loss = 1.870, time = 4.795
+Epoch 1/600, Iter 1/24, train loss = 2.194, time = 4.730
+Epoch 1/600, Iter 2/24, train loss = 1.564, time = 4.646
+Epoch 1/600, Iter 3/24, train loss = 1.502, time = 5.017
+Epoch 1/600, Iter 4/24, train loss = 1.559, time = 4.439
+Epoch 1/600, Iter 5/24, train loss = 1.295, time = 4.921
+Epoch 1/600, Iter 6/24, train loss = 1.615, time = 5.391
+Epoch 1/600, Iter 7/24, train loss = 1.252, time = 5.206
+Epoch 1/600, Iter 8/24, train loss = 1.259, time = 5.085
+Epoch 1/600, Iter 9/24, train loss = 1.724, time = 5.135
+Epoch 1/600, Iter 10/24, train loss = 2.942, time = 5.283
+Epoch 1/600, Iter 11/24, train loss = 1.574, time = 5.273
+Epoch 1/600, Iter 12/24, train loss = 1.613, time = 5.054
+Epoch 1/600, Iter 13/24, train loss = 1.979, time = 5.326
+Epoch 1/600, Iter 14/24, train loss = 1.817, time = 4.901
+Epoch 1/600, Iter 15/24, train loss = 1.716, time = 4.841
+Epoch 1/600, Iter 16/24, train loss = 1.891, time = 59.895
+Epoch 1/600, Iter 17/24, train loss = 1.292, time = 4.967
+Epoch 1/600, Iter 18/24, train loss = 1.513, time = 4.309
+Epoch 1/600, Iter 19/24, train loss = 1.327, time = 4.979
+Epoch 1/600, Iter 20/24, train loss = 1.612, time = 4.710
+Epoch 1/600, Iter 21/24, train loss = 1.402, time = 4.752
+Epoch 1/600, Iter 22/24, train loss = 1.212, time = 4.623
+Epoch 1/600, Iter 23/24, train loss = 1.438, time = 5.040
+Epoch 1/600, Iter 0/3, test loss = 111.348, time = 13.755590
+Epoch 1/600, Iter 1/3, test loss = 114.787, time = 14.115719
+Epoch 1/600, Iter 2/3, test loss = 116.200, time = 8.231883
+avg_test_scalars {'loss': 114.11178080240886, 'EPE': [114.23964182535808], 'D1': [0.9949697454770406], 'Thres1': [0.9984429677327474], 'Thres2': [0.9967366854349772], 'Thres3': [0.9951078494389852]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 2/600, Iter 0/24, train loss = 1.362, time = 4.890
+Epoch 2/600, Iter 1/24, train loss = 1.539, time = 4.856
+Epoch 2/600, Iter 2/24, train loss = 1.551, time = 4.740
+Epoch 2/600, Iter 3/24, train loss = 1.690, time = 5.081
+Epoch 2/600, Iter 4/24, train loss = 1.524, time = 4.770
+Epoch 2/600, Iter 5/24, train loss = 1.435, time = 4.855
+Epoch 2/600, Iter 6/24, train loss = 1.459, time = 4.714
+Epoch 2/600, Iter 7/24, train loss = 1.802, time = 4.698
+Epoch 2/600, Iter 8/24, train loss = 2.847, time = 4.699
+Epoch 2/600, Iter 9/24, train loss = 1.111, time = 4.343
+Epoch 2/600, Iter 10/24, train loss = 1.489, time = 4.468
+Epoch 2/600, Iter 11/24, train loss = 1.227, time = 4.662
+Epoch 2/600, Iter 12/24, train loss = 1.525, time = 40.484
+Epoch 2/600, Iter 13/24, train loss = 1.748, time = 5.007
+Epoch 2/600, Iter 14/24, train loss = 2.604, time = 4.697
+Epoch 2/600, Iter 15/24, train loss = 1.700, time = 5.162
+Epoch 2/600, Iter 16/24, train loss = 1.312, time = 5.128
+Epoch 2/600, Iter 17/24, train loss = 2.141, time = 4.616
+Epoch 2/600, Iter 18/24, train loss = 1.418, time = 4.541
+Epoch 2/600, Iter 19/24, train loss = 1.205, time = 4.696
+Epoch 2/600, Iter 20/24, train loss = 1.316, time = 4.810
+Epoch 2/600, Iter 21/24, train loss = 1.720, time = 4.686
+Epoch 2/600, Iter 22/24, train loss = 1.205, time = 4.864
+Epoch 2/600, Iter 23/24, train loss = 1.311, time = 5.006
+Epoch 2/600, Iter 0/3, test loss = 61.101, time = 13.374595
+Epoch 2/600, Iter 1/3, test loss = 66.548, time = 12.710013
+Epoch 2/600, Iter 2/3, test loss = 66.976, time = 7.306988
+avg_test_scalars {'loss': 64.87490717569987, 'EPE': [65.08365122477214], 'D1': [0.9910781184832255], 'Thres1': [0.9974419275919596], 'Thres2': [0.9949498573939005], 'Thres3': [0.9924649198849996]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 3/600, Iter 0/24, train loss = 1.846, time = 4.886
+Epoch 3/600, Iter 1/24, train loss = 1.624, time = 4.465
+Epoch 3/600, Iter 2/24, train loss = 1.491, time = 4.893
+Epoch 3/600, Iter 3/24, train loss = 1.382, time = 4.833
+Epoch 3/600, Iter 4/24, train loss = 1.682, time = 4.609
+Epoch 3/600, Iter 5/24, train loss = 1.298, time = 4.259
+Epoch 3/600, Iter 6/24, train loss = 1.155, time = 4.279
+Epoch 3/600, Iter 7/24, train loss = 1.256, time = 5.079
+Epoch 3/600, Iter 8/24, train loss = 1.563, time = 34.184
+Epoch 3/600, Iter 9/24, train loss = 1.556, time = 5.158
+Epoch 3/600, Iter 10/24, train loss = 1.637, time = 5.033
+Epoch 3/600, Iter 11/24, train loss = 1.215, time = 4.938
+Epoch 3/600, Iter 12/24, train loss = 1.434, time = 4.326
+Epoch 3/600, Iter 13/24, train loss = 1.167, time = 4.882
+Epoch 3/600, Iter 14/24, train loss = 2.153, time = 5.134
+Epoch 3/600, Iter 15/24, train loss = 1.813, time = 5.005
+Epoch 3/600, Iter 16/24, train loss = 1.458, time = 5.121
+Epoch 3/600, Iter 17/24, train loss = 1.362, time = 4.381
+Epoch 3/600, Iter 18/24, train loss = 1.588, time = 5.094
+Epoch 3/600, Iter 19/24, train loss = 1.582, time = 5.006
+Epoch 3/600, Iter 20/24, train loss = 1.345, time = 5.175
+Epoch 3/600, Iter 21/24, train loss = 1.411, time = 4.756
+Epoch 3/600, Iter 22/24, train loss = 2.719, time = 5.340
+Epoch 3/600, Iter 23/24, train loss = 1.217, time = 5.031
+Epoch 3/600, Iter 0/3, test loss = 79.508, time = 17.356617
+Epoch 3/600, Iter 1/3, test loss = 84.101, time = 18.257879
+Epoch 3/600, Iter 2/3, test loss = 84.661, time = 7.924237
+avg_test_scalars {'loss': 82.75640614827473, 'EPE': [82.93347930908203], 'D1': [0.9450585047403971], 'Thres1': [0.9811137119928995], 'Thres2': [0.9626721541086832], 'Thres3': [0.9452581405639648]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 4/600, Iter 0/24, train loss = 1.365, time = 5.090
+Epoch 4/600, Iter 1/24, train loss = 1.550, time = 4.599
+Epoch 4/600, Iter 2/24, train loss = 1.462, time = 4.379
+Epoch 4/600, Iter 3/24, train loss = 1.375, time = 4.768
+Epoch 4/600, Iter 4/24, train loss = 1.772, time = 76.882
+Epoch 4/600, Iter 5/24, train loss = 1.567, time = 5.282
+Epoch 4/600, Iter 6/24, train loss = 1.566, time = 4.400
+Epoch 4/600, Iter 7/24, train loss = 1.268, time = 4.745
+Epoch 4/600, Iter 8/24, train loss = 1.395, time = 4.808
+Epoch 4/600, Iter 9/24, train loss = 1.792, time = 4.631
+Epoch 4/600, Iter 10/24, train loss = 1.379, time = 4.879
+Epoch 4/600, Iter 11/24, train loss = 1.284, time = 4.696
+Epoch 4/600, Iter 12/24, train loss = 1.206, time = 4.902
+Epoch 4/600, Iter 13/24, train loss = 1.535, time = 4.759
+Epoch 4/600, Iter 14/24, train loss = 1.432, time = 4.573
+Epoch 4/600, Iter 15/24, train loss = 3.997, time = 4.820
+Epoch 4/600, Iter 16/24, train loss = 1.366, time = 4.703
+Epoch 4/600, Iter 17/24, train loss = 1.663, time = 4.173
+Epoch 4/600, Iter 18/24, train loss = 1.361, time = 4.649
+Epoch 4/600, Iter 19/24, train loss = 1.591, time = 4.557
+Epoch 4/600, Iter 20/24, train loss = 1.391, time = 4.701
+Epoch 4/600, Iter 21/24, train loss = 1.277, time = 4.634
+Epoch 4/600, Iter 22/24, train loss = 1.282, time = 4.989
+Epoch 4/600, Iter 23/24, train loss = 1.838, time = 4.500
+Epoch 4/600, Iter 0/3, test loss = 70.032, time = 13.508772
+Epoch 4/600, Iter 1/3, test loss = 75.381, time = 15.745703
+Epoch 4/600, Iter 2/3, test loss = 75.947, time = 9.983219
+avg_test_scalars {'loss': 73.78686777750652, 'EPE': [74.00286610921223], 'D1': [0.9976486961046854], 'Thres1': [0.9993500908215841], 'Thres2': [0.9987310171127319], 'Thres3': [0.9980435768763224]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 5/600, Iter 0/24, train loss = 1.637, time = 57.200
+Epoch 5/600, Iter 1/24, train loss = 1.228, time = 4.979
+Epoch 5/600, Iter 2/24, train loss = 2.126, time = 4.632
+Epoch 5/600, Iter 3/24, train loss = 1.607, time = 4.956
+Epoch 5/600, Iter 4/24, train loss = 5.163, time = 5.123
+Epoch 5/600, Iter 5/24, train loss = 1.985, time = 4.751
+Epoch 5/600, Iter 6/24, train loss = 1.422, time = 4.857
+Epoch 5/600, Iter 7/24, train loss = 1.446, time = 4.867
+Epoch 5/600, Iter 8/24, train loss = 1.986, time = 4.405
+Epoch 5/600, Iter 9/24, train loss = 1.693, time = 4.534
+Epoch 5/600, Iter 10/24, train loss = 1.588, time = 4.658
+Epoch 5/600, Iter 11/24, train loss = 1.687, time = 5.088
+Epoch 5/600, Iter 12/24, train loss = 2.055, time = 4.934
+Epoch 5/600, Iter 13/24, train loss = 2.339, time = 4.844
+Epoch 5/600, Iter 14/24, train loss = 2.637, time = 4.294
+Epoch 5/600, Iter 15/24, train loss = 1.560, time = 5.091
+Epoch 5/600, Iter 16/24, train loss = 1.322, time = 4.244
+Epoch 5/600, Iter 17/24, train loss = 1.950, time = 4.872
+Epoch 5/600, Iter 18/24, train loss = 1.731, time = 5.218
+Epoch 5/600, Iter 19/24, train loss = 1.974, time = 5.079
+Epoch 5/600, Iter 20/24, train loss = 1.749, time = 34.179
+Epoch 5/600, Iter 21/24, train loss = 1.728, time = 5.032
+Epoch 5/600, Iter 22/24, train loss = 1.447, time = 4.919
+Epoch 5/600, Iter 23/24, train loss = 1.972, time = 4.644
+Epoch 5/600, Iter 0/3, test loss = 69.169, time = 15.095247
+Epoch 5/600, Iter 1/3, test loss = 74.533, time = 13.335660
+Epoch 5/600, Iter 2/3, test loss = 75.055, time = 6.874505
+avg_test_scalars {'loss': 72.91878255208333, 'EPE': [73.1296157836914], 'D1': [0.9898345073064169], 'Thres1': [0.9968651334444681], 'Thres2': [0.9938945571581522], 'Thres3': [0.9909064173698425]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 6/600, Iter 0/24, train loss = 1.781, time = 4.845
+Epoch 6/600, Iter 1/24, train loss = 1.481, time = 5.083
+Epoch 6/600, Iter 2/24, train loss = 1.463, time = 4.964
+Epoch 6/600, Iter 3/24, train loss = 1.775, time = 5.448
+Epoch 6/600, Iter 4/24, train loss = 1.470, time = 4.949
+Epoch 6/600, Iter 5/24, train loss = 1.385, time = 5.059
+Epoch 6/600, Iter 6/24, train loss = 1.404, time = 5.144
+Epoch 6/600, Iter 7/24, train loss = 1.774, time = 4.957
+Epoch 6/600, Iter 8/24, train loss = 1.621, time = 4.960
+Epoch 6/600, Iter 9/24, train loss = 1.250, time = 5.123
+Epoch 6/600, Iter 10/24, train loss = 1.198, time = 4.847
+Epoch 6/600, Iter 11/24, train loss = 1.610, time = 4.462
+Epoch 6/600, Iter 12/24, train loss = 1.439, time = 4.380
+Epoch 6/600, Iter 13/24, train loss = 3.171, time = 4.468
+Epoch 6/600, Iter 14/24, train loss = 1.241, time = 4.370
+Epoch 6/600, Iter 15/24, train loss = 1.551, time = 4.587
+Epoch 6/600, Iter 16/24, train loss = 1.624, time = 59.924
+Epoch 6/600, Iter 17/24, train loss = 1.591, time = 4.655
+Epoch 6/600, Iter 18/24, train loss = 1.366, time = 4.871
+Epoch 6/600, Iter 19/24, train loss = 1.807, time = 4.615
+Epoch 6/600, Iter 20/24, train loss = 1.129, time = 4.597
+Epoch 6/600, Iter 21/24, train loss = 2.022, time = 4.553
+Epoch 6/600, Iter 22/24, train loss = 1.443, time = 4.433
+Epoch 6/600, Iter 23/24, train loss = 1.480, time = 4.829
+Epoch 6/600, Iter 0/3, test loss = 68.728, time = 14.288272
+Epoch 6/600, Iter 1/3, test loss = 73.826, time = 15.075213
+Epoch 6/600, Iter 2/3, test loss = 74.133, time = 7.773420
+avg_test_scalars {'loss': 72.22896067301433, 'EPE': [72.40490468343098], 'D1': [0.9820237755775452], 'Thres1': [0.9942225217819214], 'Thres2': [0.9885341127713522], 'Thres3': [0.9825889070828756]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 7/600, Iter 0/24, train loss = 7.002, time = 4.660
+Epoch 7/600, Iter 1/24, train loss = 1.397, time = 4.698
+Epoch 7/600, Iter 2/24, train loss = 1.482, time = 4.480
+Epoch 7/600, Iter 3/24, train loss = 1.405, time = 4.809
+Epoch 7/600, Iter 4/24, train loss = 1.269, time = 4.904
+Epoch 7/600, Iter 5/24, train loss = 1.687, time = 5.277
+Epoch 7/600, Iter 6/24, train loss = 1.607, time = 5.108
+Epoch 7/600, Iter 7/24, train loss = 1.221, time = 5.149
+Epoch 7/600, Iter 8/24, train loss = 1.773, time = 4.697
+Epoch 7/600, Iter 9/24, train loss = 1.988, time = 4.059
+Epoch 7/600, Iter 10/24, train loss = 1.923, time = 4.351
+Epoch 7/600, Iter 11/24, train loss = 1.660, time = 4.152
+Epoch 7/600, Iter 12/24, train loss = 1.434, time = 35.527
+Epoch 7/600, Iter 13/24, train loss = 1.389, time = 4.833
+Epoch 7/600, Iter 14/24, train loss = 1.483, time = 4.268
+Epoch 7/600, Iter 15/24, train loss = 1.935, time = 4.329
+Epoch 7/600, Iter 16/24, train loss = 2.139, time = 4.849
+Epoch 7/600, Iter 17/24, train loss = 1.301, time = 4.733
+Epoch 7/600, Iter 18/24, train loss = 1.500, time = 4.821
+Epoch 7/600, Iter 19/24, train loss = 1.700, time = 4.583
+Epoch 7/600, Iter 20/24, train loss = 1.897, time = 4.341
+Epoch 7/600, Iter 21/24, train loss = 1.696, time = 4.456
+Epoch 7/600, Iter 22/24, train loss = 1.482, time = 4.309
+Epoch 7/600, Iter 23/24, train loss = 1.590, time = 4.448
+Epoch 7/600, Iter 0/3, test loss = 22.448, time = 12.989025
+Epoch 7/600, Iter 1/3, test loss = 22.709, time = 13.695925
+Epoch 7/600, Iter 2/3, test loss = 21.566, time = 7.018487
+avg_test_scalars {'loss': 22.240676244099934, 'EPE': [22.232325236002605], 'D1': [0.9331510066986084], 'Thres1': [0.9763451417287191], 'Thres2': [0.9546988209088644], 'Thres3': [0.9331831336021423]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 8/600, Iter 0/24, train loss = 1.312, time = 4.913
+Epoch 8/600, Iter 1/24, train loss = 1.364, time = 4.871
+Epoch 8/600, Iter 2/24, train loss = 1.570, time = 4.603
+Epoch 8/600, Iter 3/24, train loss = 1.539, time = 4.362
+Epoch 8/600, Iter 4/24, train loss = 1.376, time = 4.949
+Epoch 8/600, Iter 5/24, train loss = 2.661, time = 4.827
+Epoch 8/600, Iter 6/24, train loss = 1.200, time = 4.887
+Epoch 8/600, Iter 7/24, train loss = 1.819, time = 4.891
+Epoch 8/600, Iter 8/24, train loss = 1.165, time = 34.646
+Epoch 8/600, Iter 9/24, train loss = 1.844, time = 4.379
+Epoch 8/600, Iter 10/24, train loss = 1.389, time = 4.592
+Epoch 8/600, Iter 11/24, train loss = 1.548, time = 4.378
+Epoch 8/600, Iter 12/24, train loss = 1.267, time = 4.354
+Epoch 8/600, Iter 13/24, train loss = 1.573, time = 4.981
+Epoch 8/600, Iter 14/24, train loss = 1.037, time = 4.249
+Epoch 8/600, Iter 15/24, train loss = 1.103, time = 4.840
+Epoch 8/600, Iter 16/24, train loss = 1.314, time = 4.335
+Epoch 8/600, Iter 17/24, train loss = 1.405, time = 5.027
+Epoch 8/600, Iter 18/24, train loss = 2.306, time = 4.583
+Epoch 8/600, Iter 19/24, train loss = 2.478, time = 4.805
+Epoch 8/600, Iter 20/24, train loss = 1.410, time = 4.751
+Epoch 8/600, Iter 21/24, train loss = 1.311, time = 4.368
+Epoch 8/600, Iter 22/24, train loss = 1.250, time = 5.195
+Epoch 8/600, Iter 23/24, train loss = 1.671, time = 4.326
+Epoch 8/600, Iter 0/3, test loss = 17.720, time = 18.266096
+Epoch 8/600, Iter 1/3, test loss = 16.455, time = 16.912768
+Epoch 8/600, Iter 2/3, test loss = 15.770, time = 9.293930
+avg_test_scalars {'loss': 16.648334821065266, 'EPE': [16.604801177978516], 'D1': [0.8736717700958252], 'Thres1': [0.9551944136619568], 'Thres2': [0.9134973287582397], 'Thres3': [0.8736945589383444]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 9/600, Iter 0/24, train loss = 1.315, time = 4.835
+Epoch 9/600, Iter 1/24, train loss = 1.442, time = 4.950
+Epoch 9/600, Iter 2/24, train loss = 1.099, time = 4.585
+Epoch 9/600, Iter 3/24, train loss = 2.230, time = 5.033
+Epoch 9/600, Iter 4/24, train loss = 1.286, time = 36.684
+Epoch 9/600, Iter 5/24, train loss = 1.287, time = 4.604
+Epoch 9/600, Iter 6/24, train loss = 1.656, time = 4.777
+Epoch 9/600, Iter 7/24, train loss = 1.090, time = 4.540
+Epoch 9/600, Iter 8/24, train loss = 1.749, time = 4.593
+Epoch 9/600, Iter 9/24, train loss = 1.629, time = 4.285
+Epoch 9/600, Iter 10/24, train loss = 1.260, time = 4.400
+Epoch 9/600, Iter 11/24, train loss = 1.094, time = 4.994
+Epoch 9/600, Iter 12/24, train loss = 1.697, time = 4.811
+Epoch 9/600, Iter 13/24, train loss = 1.432, time = 4.833
+Epoch 9/600, Iter 14/24, train loss = 2.033, time = 4.463
+Epoch 9/600, Iter 15/24, train loss = 0.957, time = 4.502
+Epoch 9/600, Iter 16/24, train loss = 1.288, time = 4.447
+Epoch 9/600, Iter 17/24, train loss = 1.424, time = 4.326
+Epoch 9/600, Iter 18/24, train loss = 1.531, time = 4.272
+Epoch 9/600, Iter 19/24, train loss = 1.383, time = 4.315
+Epoch 9/600, Iter 20/24, train loss = 1.984, time = 4.237
+Epoch 9/600, Iter 21/24, train loss = 1.905, time = 4.582
+Epoch 9/600, Iter 22/24, train loss = 1.466, time = 4.586
+Epoch 9/600, Iter 23/24, train loss = 1.590, time = 5.063
+Epoch 9/600, Iter 0/3, test loss = 17.786, time = 13.880838
+Epoch 9/600, Iter 1/3, test loss = 16.482, time = 13.724508
+Epoch 9/600, Iter 2/3, test loss = 15.737, time = 7.077025
+avg_test_scalars {'loss': 16.668445269266766, 'EPE': [16.623761494954426], 'D1': [0.877443273862203], 'Thres1': [0.957831343015035], 'Thres2': [0.9160416920979818], 'Thres3': [0.8774523536364237]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 10/600, Iter 0/24, train loss = 1.471, time = 37.413
+Epoch 10/600, Iter 1/24, train loss = 1.200, time = 4.977
+Epoch 10/600, Iter 2/24, train loss = 1.156, time = 5.200
+Epoch 10/600, Iter 3/24, train loss = 1.666, time = 4.876
+Epoch 10/600, Iter 4/24, train loss = 1.219, time = 4.873
+Epoch 10/600, Iter 5/24, train loss = 1.163, time = 4.866
+Epoch 10/600, Iter 6/24, train loss = 1.492, time = 4.940
+Epoch 10/600, Iter 7/24, train loss = 1.641, time = 4.541
+Epoch 10/600, Iter 8/24, train loss = 2.700, time = 4.798
+Epoch 10/600, Iter 9/24, train loss = 1.435, time = 4.821
+Epoch 10/600, Iter 10/24, train loss = 1.605, time = 4.959
+Epoch 10/600, Iter 11/24, train loss = 1.186, time = 4.667
+Epoch 10/600, Iter 12/24, train loss = 1.625, time = 4.832
+Epoch 10/600, Iter 13/24, train loss = 1.378, time = 4.711
+Epoch 10/600, Iter 14/24, train loss = 1.539, time = 4.383
+Epoch 10/600, Iter 15/24, train loss = 1.418, time = 4.985
+Epoch 10/600, Iter 16/24, train loss = 1.503, time = 4.631
+Epoch 10/600, Iter 17/24, train loss = 1.424, time = 4.917
+Epoch 10/600, Iter 18/24, train loss = 0.979, time = 4.681
+Epoch 10/600, Iter 19/24, train loss = 1.452, time = 4.799
+Epoch 10/600, Iter 20/24, train loss = 1.539, time = 36.068
+Epoch 10/600, Iter 21/24, train loss = 2.059, time = 4.366
+Epoch 10/600, Iter 22/24, train loss = 1.596, time = 4.545
+Epoch 10/600, Iter 23/24, train loss = 1.454, time = 5.073
+Epoch 10/600, Iter 0/3, test loss = 16.374, time = 13.711349
+Epoch 10/600, Iter 1/3, test loss = 13.519, time = 13.292783
+Epoch 10/600, Iter 2/3, test loss = 13.063, time = 7.530454
+avg_test_scalars {'loss': 14.318875312805176, 'EPE': [14.222966194152832], 'D1': [0.8901307185490926], 'Thres1': [0.963713268438975], 'Thres2': [0.928744912147522], 'Thres3': [0.8901317516962687]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 11/600, Iter 0/24, train loss = 1.449, time = 4.545
+Epoch 11/600, Iter 1/24, train loss = 1.285, time = 4.839
+Epoch 11/600, Iter 2/24, train loss = 1.558, time = 4.505
+Epoch 11/600, Iter 3/24, train loss = 1.641, time = 4.758
+Epoch 11/600, Iter 4/24, train loss = 1.227, time = 4.106
+Epoch 11/600, Iter 5/24, train loss = 1.369, time = 5.054
+Epoch 11/600, Iter 6/24, train loss = 1.650, time = 4.249
+Epoch 11/600, Iter 7/24, train loss = 1.294, time = 4.256
+Epoch 11/600, Iter 8/24, train loss = 1.089, time = 5.088
+Epoch 11/600, Iter 9/24, train loss = 1.501, time = 4.924
+Epoch 11/600, Iter 10/24, train loss = 1.466, time = 5.084
+Epoch 11/600, Iter 11/24, train loss = 1.485, time = 4.710
+Epoch 11/600, Iter 12/24, train loss = 1.653, time = 4.434
+Epoch 11/600, Iter 13/24, train loss = 1.439, time = 5.006
+Epoch 11/600, Iter 14/24, train loss = 1.402, time = 4.874
+Epoch 11/600, Iter 15/24, train loss = 1.250, time = 4.630
+Epoch 11/600, Iter 16/24, train loss = 1.267, time = 35.755
+Epoch 11/600, Iter 17/24, train loss = 1.786, time = 4.623
+Epoch 11/600, Iter 18/24, train loss = 2.141, time = 4.444
+Epoch 11/600, Iter 19/24, train loss = 1.861, time = 5.119
+Epoch 11/600, Iter 20/24, train loss = 1.598, time = 4.247
+Epoch 11/600, Iter 21/24, train loss = 1.638, time = 4.487
+Epoch 11/600, Iter 22/24, train loss = 1.291, time = 4.602
+Epoch 11/600, Iter 23/24, train loss = 1.609, time = 4.694
+Epoch 11/600, Iter 0/3, test loss = 17.774, time = 14.202767
+Epoch 11/600, Iter 1/3, test loss = 14.801, time = 13.235794
+Epoch 11/600, Iter 2/3, test loss = 14.045, time = 6.921149
+avg_test_scalars {'loss': 15.540083249409994, 'EPE': [15.438182830810547], 'D1': [0.8794727921485901], 'Thres1': [0.9590664505958557], 'Thres2': [0.9185654719670614], 'Thres3': [0.8794769644737244]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 12/600, Iter 0/24, train loss = 1.847, time = 4.954
+Epoch 12/600, Iter 1/24, train loss = 1.205, time = 5.090
+Epoch 12/600, Iter 2/24, train loss = 1.444, time = 4.176
+Epoch 12/600, Iter 3/24, train loss = 1.750, time = 4.369
+Epoch 12/600, Iter 4/24, train loss = 1.219, time = 4.340
+Epoch 12/600, Iter 5/24, train loss = 2.167, time = 4.322
+Epoch 12/600, Iter 6/24, train loss = 1.417, time = 4.822
+Epoch 12/600, Iter 7/24, train loss = 1.800, time = 4.954
+Epoch 12/600, Iter 8/24, train loss = 1.669, time = 4.362
+Epoch 12/600, Iter 9/24, train loss = 1.817, time = 4.989
+Epoch 12/600, Iter 10/24, train loss = 1.784, time = 5.012
+Epoch 12/600, Iter 11/24, train loss = 1.496, time = 4.347
+Epoch 12/600, Iter 12/24, train loss = 1.280, time = 34.797
+Epoch 12/600, Iter 13/24, train loss = 1.839, time = 4.640
+Epoch 12/600, Iter 14/24, train loss = 1.321, time = 4.294
+Epoch 12/600, Iter 15/24, train loss = 1.724, time = 4.622
+Epoch 12/600, Iter 16/24, train loss = 2.170, time = 4.315
+Epoch 12/600, Iter 17/24, train loss = 1.350, time = 4.263
+Epoch 12/600, Iter 18/24, train loss = 2.140, time = 4.291
+Epoch 12/600, Iter 19/24, train loss = 1.453, time = 4.913
+Epoch 12/600, Iter 20/24, train loss = 1.878, time = 4.820
+Epoch 12/600, Iter 21/24, train loss = 1.599, time = 4.270
+Epoch 12/600, Iter 22/24, train loss = 1.652, time = 4.470
+Epoch 12/600, Iter 23/24, train loss = 1.080, time = 5.113
+Epoch 12/600, Iter 0/3, test loss = 16.873, time = 13.426735
+Epoch 12/600, Iter 1/3, test loss = 14.920, time = 13.199913
+Epoch 12/600, Iter 2/3, test loss = 14.219, time = 7.213904
+avg_test_scalars {'loss': 15.33703645070394, 'EPE': [15.274701118469238], 'D1': [0.8668646812438965], 'Thres1': [0.9507095019022623], 'Thres2': [0.9065206448237101], 'Thres3': [0.8668797612190247]}
+downscale epochs: [400], downscale rate: 10.0
+setting learning rate to 0.001
+Epoch 13/600, Iter 0/24, train loss = 1.704, time = 4.634
+Epoch 13/600, Iter 1/24, train loss = 1.636, time = 4.898
+Epoch 13/600, Iter 2/24, train loss = 1.397, time = 4.368
+Epoch 13/600, Iter 3/24, train loss = 1.812, time = 4.993
+Epoch 13/600, Iter 4/24, train loss = 1.519, time = 4.977
+Epoch 13/600, Iter 5/24, train loss = 1.730, time = 4.453
+[2022-09-29 16:32:07.592] [error] KT AI Accelerator (#0) is currently unavailable to process the application's requests from #31510. This may be caused by the following reasons:
+* An invalid operator or parameter delivered from PyTorch and/or Moreh AI Compiler.
+* Failed kernel safety check in a device worker daemon.
+* A temporary problem of the device.
+Please contact technical support with the code below if the problem persists.
+ error dump: 0 1 18 13 7 1 86 68 1 22 22 11 22 68 11 7 7 17 22 22 1 0 68 94 68 70 43 20 1 10 39 40 68 1 22 22 11 22 68 39 40 59 41 33 41 59 43 38 46 33 39 48 59 37 40 40 43 39 37 48 45 43 42 59 34 37 45 40 49 54 33 74 70 
+

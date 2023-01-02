@@ -1,0 +1,6 @@
+opencv-python
+scikit-image
+tensorboard
+tensorboardX
+matplotlib 
+tqdm
